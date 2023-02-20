@@ -20,6 +20,12 @@
             EditContact.Modify();
             EditContact.ListingPeople();
 
+            //delete a person          
+            DeleteContact.GetCustomer();
+            DeleteContact.Modify();
+            DeleteContact.ListingPeople();
+            DeleteContact.RemovePeople();
+
         }
     }
     }
