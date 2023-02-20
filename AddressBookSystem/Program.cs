@@ -126,17 +126,7 @@
                     //Console.WriteLine("Key: {0}, Value: {1}", kvp.Key, kvp.Value[0].firstName);              
                     Console.WriteLine("Key: {0}, Value: {1}", kvp.Key, kvp.Value);
                 }
-                i++;
-            }
-        }
-        //Display Details
-        public void Display(AddressBookSystem[] ContactArray, int N)
-        {
-            Console.WriteLine("---------Address Book Contains---------");
-            int i;
-            for (i = 0; i < N; i++)
-            {
-                Console.WriteLine("First name: {0}\n Last name: {1}\n Address: {2}\n City: {3}\n Zip: {4}\n State: {5}\n Phone Number: {6}\n Email: {7} \n", ContactArray[i].firstName, ContactArray[i].lastName, ContactArray[i].Address, ContactArray[i].city, ContactArray[i].zip, ContactArray[i].state, ContactArray[i].phoneNumber, ContactArray[i].email);
+                i++; ContactArray[i].Address, ContactArray[i].city, ContactArray[i].zip, ContactArray[i].state, ContactArray[i].phoneNumber, ContactArray[i].email);
 
             }
 
